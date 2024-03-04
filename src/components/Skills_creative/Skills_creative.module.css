@@ -1,0 +1,467 @@
+.skills {
+  margin-top: 70px;
+  /* background-color: rgb(97, 0, 136); */
+  height: 250px;
+  width: 100%;
+  border-radius: 30px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  /* text-align: left; */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; */
+}
+/* .h2text {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+} */
+.frontend {
+  /* background-color: rgb(26, 26, 26); */
+  width: 23%;
+  height: 60%;
+  /* display: inline-block; */
+  margin: 10px;
+  border-radius: 15px;
+
+  /* float: left; */
+}
+
+.backend {
+  /* background-color: rgb(26, 26, 26); */
+  width: 23%;
+  height: 60%;
+  /* display: inline-block; */
+  margin: 10px;
+  border-radius: 15px;
+  /* float: right; */
+}
+
+.database {
+  /* background-color: rgb(26, 26, 26); */
+  width: 23%;
+  height: 60%;
+  /* display: inline-block; */
+  margin: 10px;
+  border-radius: 15px;
+  /* float: right; */
+}
+
+.liabraries {
+  /* background-color: #000000; */
+  width: 23%;
+  height: 60%;
+  /* display: inline-block; */
+  margin: 10px;
+  border-radius: 15px;
+  /* float: right; */
+}
+
+.frontend_top {
+  border: #0093d1 2px solid;
+  background-image: url(../../assets/react_upper.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: #6e6e6e; */
+  border-radius: 15px;
+  height: 25%;
+  width: 70%;
+  /* align-items: center;
+  justify-content: left;
+  display: flex; */
+}
+
+.frontend_heading {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 30%;
+  left: 5%;
+}
+
+.backend_top {
+  border: #0093d1 2px solid;
+  background-image: url(../../assets/node_upper.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: #6e6e6e; */
+  border-radius: 15px;
+  height: 25%;
+  width: 70%;
+  /* align-items: center;
+  justify-content: left;
+  display: flex; */
+}
+
+.backend_heading {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 30%;
+  left: 5%;
+}
+.database_top {
+  border: #0093d1 2px solid;
+  background-image: url(../../assets/mongo_upper.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: #6e6e6e; */
+  border-radius: 15px;
+  height: 25%;
+  width: 70%;
+  /* align-items: center;
+  justify-content: left;
+  display: flex; */
+}
+
+.database_heading {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 30%;
+  left: 5%;
+}
+
+.liabraries_top {
+  border: #0093d1 2px solid;
+  background-image: url(../../assets/liabraries_upper.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: #6e6e6e; */
+  border-radius: 15px;
+  height: 25%;
+  width: 70%;
+  /* align-items: center;
+  justify-content: left;
+  display: flex; */
+}
+
+.liabraries_heading {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 30%;
+  left: 5%;
+}
+
+.frontend_tech {
+  border: #b00557 2px solid;
+  margin-top: 5px;
+  background-image: url(../../assets/react.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: #6e6e6e; */
+  border-radius: 15px;
+  height: 60%;
+  width: 99%;
+  text-align: left;
+  /* display: flex;
+  justify-content: space-between; */
+  padding: 7px;
+}
+
+.backend_tech {
+  border: #b00557 2px solid;
+  margin-top: 5px;
+  background-image: url(../../assets/node_lower.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: #6e6e6e; */
+  border-radius: 15px;
+  height: 60%;
+  width: 99%;
+  text-align: left;
+  padding: 7px;
+}
+
+.database_tech {
+  border: #b00557 2px solid;
+  margin-top: 5px;
+  background-image: url(../../assets/mongo_lower.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: #6e6e6e; */
+  border-radius: 15px;
+  height: 60%;
+  width: 99%;
+  text-align: left;
+  padding: 7px;
+}
+
+.liabraries_tech {
+  border: #b00557 2px solid;
+  margin-top: 5px;
+  background-image: url(../../assets/liabraries_lower.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: #6e6e6e; */
+  border-radius: 15px;
+  height: 60%;
+  width: 99%;
+  text-align: left;
+  padding: 7px;
+}
+
+.html {
+  /* position: absolute; */
+  position: relative;
+  background-color: #0092d196;
+  border-radius: 10px;
+  margin: 5px;
+  height: 30px;
+  width: 50px;
+  display: inline-block;
+}
+.html_text {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 13%;
+  left: 15%;
+}
+
+.css {
+  /* position: absolute; */
+  position: relative;
+  background-color: #0092d196;
+  border-radius: 10px;
+  margin: 5px;
+  height: 30px;
+  width: 40px;
+  display: inline-block;
+}
+.css_text {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 13%;
+  left: 15%;
+}
+
+.js {
+  /* position: absolute; */
+  position: relative;
+  background-color: #0092d196;
+  border-radius: 10px;
+  margin: 5px;
+  height: 30px;
+  width: 70px;
+  display: inline-block;
+}
+.js_text {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 13%;
+  left: 10%;
+}
+
+.react {
+  /* position: absolute; */
+  position: relative;
+  background-color: #0092d196;
+  border-radius: 10px;
+  margin: 5px;
+  height: 30px;
+  width: 60px;
+  border: #d80168 1px solid;
+  display: inline-block;
+}
+.react_text {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 13%;
+  left: 12%;
+}
+.vite {
+  /* position: absolute; */
+  position: relative;
+  background-color: #0092d196;
+  border-radius: 10px;
+  margin: 5px;
+  height: 30px;
+  width: 50px;
+  border: #d80168 1px solid;
+  display: inline-block;
+}
+.vite_text {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 13%;
+  left: 15%;
+}
+.node {
+  /* position: absolute; */
+  position: relative;
+  background-color: #0092d196;
+  border-radius: 10px;
+  margin: 5px;
+  height: 30px;
+  width: 120px;
+  display: inline-block;
+}
+.node_text {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 13%;
+  left: 25%;
+}
+
+.express {
+  /* position: absolute; */
+  position: relative;
+  background-color: #0092d196;
+  border: #d80168 1px solid;
+  border-radius: 10px;
+  margin: 5px;
+  height: 30px;
+  width: 110px;
+  display: inline-block;
+}
+.express_text {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 13%;
+  left: 25%;
+}
+
+.sql {
+  /* position: absolute; */
+  position: relative;
+  background-color: #0092d196;
+  border-radius: 10px;
+  margin: 5px;
+  height: 30px;
+  width: 120px;
+  display: inline-block;
+}
+.sql_text {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 13%;
+  left: 30%;
+}
+
+.mongo {
+  /* position: absolute; */
+  position: relative;
+  background-color: #0092d196;
+  border: #d80168 1px solid;
+  border-radius: 10px;
+  margin: 5px;
+  height: 30px;
+  width: 110px;
+  display: inline-block;
+}
+.mongo_text {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 13%;
+  left: 25%;
+}
+
+.numpy {
+  /* position: absolute; */
+  position: relative;
+  background-color: #0092d196;
+  border: #d80168 1px solid;
+  border-radius: 10px;
+  margin: 5px;
+  height: 30px;
+  width: 55px;
+  display: inline-block;
+}
+.numpy_text {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 13%;
+  left: 15%;
+}
+
+.pandas {
+  /* position: absolute; */
+  position: relative;
+  background-color: #0092d196;
+  border: #d80168 1px solid;
+  border-radius: 10px;
+  margin: 5px;
+  height: 30px;
+  width: 55px;
+  display: inline-block;
+}
+.pandas_text {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 13%;
+  left: 15%;
+}
+
+.opencv {
+  /* position: absolute; */
+  position: relative;
+  background-color: #0092d196;
+  border-radius: 10px;
+  margin: 5px;
+  height: 30px;
+  width: 55px;
+  display: inline-block;
+}
+.opencv_text {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 13%;
+  left: 5%;
+}
+
+.scipy {
+  /* position: absolute; */
+  position: relative;
+  background-color: #0092d196;
+  border-radius: 10px;
+  margin: 5px;
+  height: 30px;
+  width: 55px;
+  display: inline-block;
+}
+.scipy_text {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 13%;
+  left: 15%;
+}
+
+.mat {
+  /* position: absolute; */
+  position: relative;
+  background-color: #0092d196;
+  border: #d80168 1px solid;
+  border-radius: 10px;
+  margin: 5px;
+  height: 30px;
+  width: 90px;
+  display: inline-block;
+}
+.mat_text {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 13%;
+  left: 15%;
+}

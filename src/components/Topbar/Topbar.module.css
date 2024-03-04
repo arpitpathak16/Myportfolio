@@ -1,0 +1,51 @@
+.topbar {
+  position: relative;
+  margin-top: 20px;
+  color: white;
+  background-image: url(../../assets/top_bar.jpg);
+  /* background-image: url(../../assets/topBg.png); */
+  background-size: contain;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: 14%;
+  border-radius: 15px;
+  flex-direction: row;
+  direction: flex;
+}
+
+.profile {
+  position: relative;
+  background-image: url(../../assets/image_my.png);
+  width: 120px;
+  height: 110px;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 45%;
+  margin-top: -0.5%;
+}
+
+.name1 {
+  /* background-color: rgb(28, 87, 139); */
+  position: relative;
+  font-size: 40px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin-left: 36%;
+  margin-top: 2%;
+}
+
+.name2 {
+  position: relative;
+  font-size: 15px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin-left: 47%;
+  margin-top: 0.3%;
+}

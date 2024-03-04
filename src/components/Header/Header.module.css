@@ -1,0 +1,210 @@
+.head {
+  margin-top: 10px;
+  /* background-color: rgb(97, 0, 136); */
+  height: 320px;
+  width: 100%;
+  border-radius: 30px;
+  z-index: 1;
+  text-align: left;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; */
+}
+.h1project {
+  color: rgb(218, 218, 218);
+  margin-left: 5px;
+}
+.h2skills {
+  margin-top: 20px;
+  color: rgb(218, 218, 218);
+  margin-left: 5px;
+}
+
+.card1 {
+  /* background-color: rgb(26, 26, 26); */
+  background-color: #0092d1c5;
+  border-radius: 15px;
+  width: 24%;
+  height: 80%;
+  display: inline-block;
+  margin: 5px;
+  /* float: left; */
+}
+
+.card2 {
+  /* background-color: rgb(26, 26, 26); */
+  background-color: #0092d1c7;
+  border-radius: 15px;
+  width: 24%;
+  height: 80%;
+  display: inline-block;
+  margin: 5px;
+  /* float: right; */
+}
+
+.card3 {
+  /* background-color: rgb(26, 26, 26); */
+  background-color: #0092d1c4;
+  border-radius: 15px;
+  width: 24%;
+  height: 80%;
+  display: inline-block;
+  margin: 5px;
+  /* float: right; */
+}
+
+.card4 {
+  background-color: #0092d1c5;
+  width: 24%;
+  height: 80%;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 15px;
+  /* float: right; */
+}
+
+.cardimage1 {
+  margin-top: 10px;
+  width: 100%;
+  height: 70%;
+  background-image: url(../../assets/amazon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.cardimage2 {
+  margin-top: 10px;
+  width: 100%;
+  height: 70%;
+  background-image: url(../../assets/spotify.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.cardimage3 {
+  margin-top: 10px;
+  width: 100%;
+  height: 70%;
+  background-image: url(../../assets/youtube.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.cardimage4 {
+  margin-top: 10px;
+  width: 100%;
+  height: 70%;
+  background-image: url(../../assets/medium.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.project1 {
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-style: bold;
+}
+.project2 {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-style: bold;
+}
+
+.project3 {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-style: bold;
+}
+.project4 {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-style: bold;
+}
+
+.tech1 {
+  margin-left: 10px;
+  margin-top: 3px;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-style: bold;
+}
+.tech2 {
+  margin-left: 10px;
+  margin-top: 3px;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-style: bold;
+}
+.tech3 {
+  margin-left: 10px;
+  margin-top: 3px;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-style: bold;
+}
+.tech4 {
+  margin-left: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-style: bold;
+}
+
+.eye1 {
+  background-image: url(../../assets/eye_black.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 20px;
+  height: 15px;
+}
+.eye2 {
+  background-image: url(../../assets/eye_black.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 20px;
+  height: 15px;
+}
+.eye3 {
+  background-image: url(../../assets/eye_black.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 20px;
+  height: 15px;
+}
+.eye4 {
+  background-image: url(../../assets/eye_black.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 20px;
+  height: 15px;
+}
