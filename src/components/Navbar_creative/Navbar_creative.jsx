@@ -1,9 +1,12 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import styles from "./Navbar_creative.module.css";
-export const Navbar = () => {
+export const Navbar_creative = () => {
   const handleButtonClick = () => {
     navigate("/home");
+  };
+  const handleLightMode = () => {
+    navigate("/creative_light");
   };
   return (
     <nav className={styles.navbar}>
@@ -67,6 +70,9 @@ export const Navbar = () => {
           </a>
         </div>
       </div>
+      <Link to={"/creative_light"}>
+        <div className={styles.light} onClick={handleLightMode}></div>
+      </Link>
       <div className={styles.mode}></div>
       <Link to={"/home"}>
         <div className={styles.goto} onClick={handleButtonClick}></div>
@@ -77,4 +83,4 @@ export const Navbar = () => {
     </nav>
   );
 };
-export default Navbar;
+export default Navbar_creative;

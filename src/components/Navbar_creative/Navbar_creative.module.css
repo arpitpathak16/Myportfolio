@@ -6,7 +6,23 @@
   position: relative;
   display: contents;
 }
-
+.light {
+  margin-top: 5px;
+  margin-left: 20px;
+  background-image: url("../../assets/sun.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  bottom: 150px;
+  left: 100px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .home {
   margin-top: 10px;
   background-color: #b300a4;

@@ -1,17 +1,17 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import styles from "./Navbar.module.css";
+import styles from "./Navbar_light.module.css";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
-export const Navbar = () => {
+export const Navbar_light = () => {
   // const navigate = useNavigate();
   const handleButtonClick = () => {
-    navigate("/page2");
+    navigate("/creative_light");
   };
   const handleLightMode = () => {
-    navigate("/light");
+    navigate("/");
   };
 
   return (
@@ -76,11 +76,11 @@ export const Navbar = () => {
           </a>
         </div>
       </div>
-      <Link to={"/light_mode"}>
+      <Link to={"/"}>
         <div className={styles.light} onClick={handleLightMode}></div>
       </Link>
       <div className={styles.mode}></div>
-      <Link to={"/page2"}>
+      <Link to={"/creative_light"}>
         <div className={styles.goto} onClick={handleButtonClick}></div>
       </Link>
 
@@ -89,4 +89,4 @@ export const Navbar = () => {
     </nav>
   );
 };
-export default Navbar;
+export default Navbar_light;

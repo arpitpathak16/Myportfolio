@@ -9,7 +9,7 @@
 .light {
   margin-top: 5px;
   margin-left: 20px;
-  background-image: url("../../assets/sun.png");
+  background-image: url("../../assets/moon.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -25,8 +25,8 @@
 }
 .home {
   margin-top: 10px;
-  background-color: #0089b3d8;
-  border: #b300a4 2px solid;
+  background-color: #b300a4;
+  border: #0089b3d8 2px solid;
   border-radius: 10px;
   position: relative;
   height: 100%;
@@ -73,7 +73,7 @@
   margin-left: 10px;
   width: 30px;
   height: 30px;
-  background-image: url("../../assets/git.png");
+  background-image: url("../../assets/drive.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -210,28 +210,19 @@
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-image: linear-gradient(
-    45deg,
-    #610064,
-    #520055,
-    #b300a4,
-    #53a5f2,
-    #53a5f2
-  );
+  background-image: linear-gradient(45deg, #53a5f2, #53a5f2, #520055, #b300a4);
 }
 .flexContainer {
-  /* background-color: #0093d1; */
   position: relative;
   display: flex;
   height: 7%;
   width: 100%;
   padding: 20px;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   margin-top: 4%;
 }
 
 .techportfolio {
-  /* background-color: #0089b3d8; */
   font-size: 25px;
   text-decoration: none;
   color: white;
@@ -255,7 +246,7 @@
 
 .mode {
   position: absolute;
-  background-color: rgb(226, 226, 226);
+  background-color: rgb(14, 14, 14);
   position: fixed;
   bottom: 95px;
   left: 110px;
@@ -268,10 +259,10 @@
 }
 
 .goto {
-  background-color: #0093d1;
+  background-color: #b300a4;
   position: fixed;
   bottom: 100px;
-  left: 115px;
+  left: 140px;
   width: 30px;
   height: 30px;
   border-radius: 50px;
@@ -285,7 +276,7 @@
   bottom: 50px;
   left: 75px;
   font-size: 15px;
-  color: rgb(248, 248, 248);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   width: 140px;
   height: 50px;

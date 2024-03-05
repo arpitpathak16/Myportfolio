@@ -1,5 +1,6 @@
 .projects {
   margin-top: 10px;
+  margin-left: 20%;
   /* background-color: rgb(97, 0, 136); */
   height: 15%;
   width: 100%;
@@ -7,7 +8,7 @@
   z-index: 1;
   text-align: left;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   /* display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; */
 }
@@ -60,10 +61,11 @@
   /* background-color: #6e6e6e; */
   border-radius: 15px;
   height: 25%;
-  width: 70%;
-  /* align-items: center;
+  width: 90%;
+  margin-left: 25%;
+  align-items: center;
   justify-content: left;
-  display: flex; */
+  display: flex;
 }
 
 .android_heading {
@@ -83,10 +85,11 @@
   /* background-color: #6e6e6e; */
   border-radius: 15px;
   height: 25%;
-  width: 70%;
-  /* align-items: center;
+  width: 90%;
+  margin-left: 25%;
+  align-items: center;
   justify-content: left;
-  display: flex; */
+  display: flex;
 }
 
 .lang_heading {
@@ -96,330 +99,79 @@
   top: 30%;
   left: 5%;
 }
-.more_top {
-  border: #0093d1 2px solid;
-  background-image: url(../../assets/more.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  /* background-color: #6e6e6e; */
-  border-radius: 15px;
-  height: 25%;
-  width: 70%;
-  /* align-items: center;
-  justify-content: left;
-  display: flex; */
-}
-
-.more_heading {
-  font-size: 20px;
-  color: rgb(255, 255, 255);
-  position: relative;
-  top: 30%;
-  left: 5%;
-}
-
-.hardware_top {
-  border: #0093d1 2px solid;
-  background-image: url(../../assets/hardware_upper.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  /* background-color: #6e6e6e; */
-  border-radius: 15px;
-  height: 25%;
-  width: 70%;
-  /* align-items: center;
-  justify-content: left;
-  display: flex; */
-}
-
-.hardware_heading {
-  font-size: 20px;
-  color: rgb(255, 255, 255);
-  position: relative;
-  top: 30%;
-  left: 5%;
-}
 
 .android_tech {
-  border: #b00557 2px solid;
+  border: #b00558c6 2px solid;
   margin-top: 5px;
-  background-image: url(../../assets/android_lower.png);
-  background-size: cover;
+  /* background-image: url(../../assets/android_lower.png); */
+  /* background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  /* background-color: #6e6e6e; */
-  border-radius: 15px;
-  height: 60%;
-  width: 99%;
-  text-align: left;
-  padding: 7px;
+  background-position: center; */
+  background-color: #0092d1c6;
+  border-radius: 100%;
+  height: 400px;
+  width: 400px;
+  /* text-align: left; */
+  /* padding: 7px; */
 }
 
 .lang_tech {
-  border: #b00557 2px solid;
+  border: #0093d1 2px solid;
   margin-top: 5px;
-  background-image: url(../../assets/languages_lowe.png);
-  background-size: cover;
+  /* background-image: url(../../assets/android_lower.png); */
+  /* background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  /* background-color: #6e6e6e; */
-  border-radius: 15px;
-  height: 60%;
-  width: 99%;
-  text-align: left;
-  padding: 7px;
-}
-
-.more_tech {
-  border: #b00557 2px solid;
-  margin-top: 5px;
-  background-image: url(../../assets/more.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  /* background-color: #6e6e6e; */
-  border-radius: 15px;
-  height: 60%;
-  width: 99%;
-  text-align: left;
-  padding: 7px;
-}
-
-.hardware_tech {
-  border: #b00557 2px solid;
-  margin-top: 5px;
-  background-image: url(../../assets/hardware_lower.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  /* background-color: #6e6e6e; */
-  border-radius: 15px;
-  height: 60%;
-  width: 99%;
-  text-align: left;
-  padding: 7px;
+  background-position: center; */
+  background-color: #b00558c6;
+  border-radius: 100%;
+  height: 400px;
+  width: 400px;
+  /* text-align: left; */
+  /* padding: 7px; */
 }
 
 .studio {
   /* position: absolute; */
-  position: relative;
-  background-color: #0092d196;
+  /* background-color: #0092d196;
   border: #b00557 1px solid;
-  border-radius: 10px;
+  border-radius: 10px; */
+  position: relative;
+  /* background-color: #0092d196; */
   margin: 5px;
-  height: 30px;
-  width: 110px;
-  display: inline-block;
+  top: 100px;
+  height: 50%;
+  width: 50%;
+  position: relative;
+  /* display: inline-block; */
 }
 .studio_text {
-  font-size: 12px;
+  font-size: 50px;
+  line-height: 1.3;
   color: rgb(255, 255, 255);
   position: relative;
-  top: 10%;
-  left: 15%;
-}
-
-.flutter {
-  /* position: absolute; */
-  position: relative;
-  background-color: #0092d196;
-  border-radius: 10px;
-  margin: 5px;
-  height: 30px;
-  width: 120px;
-  display: inline-block;
-}
-.flutter_text {
-  font-size: 12px;
-  color: rgb(255, 255, 255);
-  position: relative;
-  top: 13%;
-  left: 35%;
-}
-
-.voice {
-  /* position: absolute; */
-  position: relative;
-  margin-top: 5px;
-  background-color: #0092d196;
-  border: #b00557 1px solid;
-  border-radius: 10px;
-  height: 30px;
-  width: 100%;
-  display: inline-block;
-}
-.voice_text {
-  font-size: 12px;
-  color: rgb(255, 255, 255);
-  position: relative;
-  top: 10%;
-  left: 5%;
-}
-
-.amp {
-  /* position: absolute; */
-  position: relative;
-  background-color: #0092d196;
-  margin: 5px;
-  border-radius: 10px;
-  height: 30px;
-  width: 100px;
-  display: inline-block;
-}
-.amp_text {
-  font-size: 12px;
-  color: rgb(255, 255, 255);
-  position: relative;
-  top: 10%;
-  left: 5%;
-}
-
-.bar {
-  /* position: absolute; */
-  position: relative;
-  background-color: #0092d196;
-  border: #b00557 1px solid;
-  margin-top: 5px;
-  border-radius: 10px;
-  height: 30px;
-  width: 100%;
-  display: inline-block;
-}
-.bar_text {
-  font-size: 12px;
-  color: rgb(255, 255, 255);
-  position: relative;
-  top: 10%;
-  left: 5%;
-}
-
-.video {
-  /* position: absolute; */
-  position: relative;
-  background-color: #0092d196;
-  margin: 5px;
-  border-radius: 10px;
-  height: 30px;
-  width: 100%;
-  display: inline-block;
-}
-.video_text {
-  font-size: 12px;
-  color: rgb(255, 255, 255);
-  position: relative;
-  top: 10%;
-  left: 5%;
-}
-.irr {
-  /* position: absolute; */
-  position: relative;
-  background-color: #0092d196;
-  border: #b00557 1px solid;
-  margin: 5px;
-  border-radius: 10px;
-  height: 30px;
-  width: 130px;
-  display: inline-block;
-}
-.irr_text {
-  font-size: 12px;
-  color: rgb(255, 255, 255);
-  position: relative;
-  top: 10%;
-  left: 5%;
+  top: 8%;
+  left: 40%;
+  text-align: center;
 }
 
 .c {
   /* position: absolute; */
   position: relative;
-  background-color: #0092d196;
+  /* background-color: #0092d196; */
   margin: 5px;
-  border-radius: 10px;
-  height: 30px;
-  width: 40px;
-  display: inline-block;
+  /* border-radius: 10px; */
+  top: 100px;
+  /* left: 2px; */
+  height: 50%;
+  width: 50%;
+  /* display: inline-block; */
 }
 .c_text {
-  font-size: 12px;
+  font-size: 50px;
+  line-height: 1.3;
   color: rgb(255, 255, 255);
   position: relative;
-  top: 10%;
-  left: 35%;
-}
-
-.cpp {
-  /* position: absolute; */
-  position: relative;
-  background-color: #0092d196;
-  border: #b00557 1px solid;
-  margin: 5px;
-  border-radius: 10px;
-  height: 30px;
-  width: 50px;
-  display: inline-block;
-}
-.cpp_text {
-  font-size: 12px;
-  color: rgb(255, 255, 255);
-  position: relative;
-  top: 10%;
-  left: 25%;
-}
-
-.kot {
-  /* position: absolute; */
-  position: relative;
-  background-color: #0092d196;
-  margin: 5px;
-  border-radius: 10px;
-  height: 30px;
-  width: 80px;
-  display: inline-block;
-}
-.kot_text {
-  font-size: 12px;
-  color: rgb(255, 255, 255);
-  position: relative;
-  top: 10%;
-  left: 25%;
-}
-
-.py {
-  /* position: absolute; */
-  position: relative;
-  background-color: #0092d196;
-  border: #b00557 1px solid;
-  margin: 5px;
-  border-radius: 10px;
-  height: 30px;
-  width: 80px;
-  display: inline-block;
-}
-.py_text {
-  font-size: 12px;
-  color: rgb(255, 255, 255);
-  position: relative;
-  top: 10%;
-  left: 25%;
-}
-
-.JS {
-  /* position: absolute; */
-  position: relative;
-  background-color: #0092d196;
-  border: #b00557 1px solid;
-  margin: 5px;
-  border-radius: 10px;
-  height: 30px;
-  width: 90px;
-  display: inline-block;
-}
-.JS_text {
-  font-size: 12px;
-  color: rgb(255, 255, 255);
-  position: relative;
-  top: 10%;
-  left: 20%;
+  top: 3%;
+  left: 50%;
+  text-align: center;
 }

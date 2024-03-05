@@ -1,25 +1,19 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import styles from "./Navbar.module.css";
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
-import { useState, useEffect } from "react";
-
-export const Navbar = () => {
-  // const navigate = useNavigate();
+import { Link, useNavigate } from "react-router-dom";
+import styles from "./Navbar_creative_light.module.css";
+export const Navbar_creative_light = () => {
   const handleButtonClick = () => {
-    navigate("/page2");
+    navigate("/light_mode");
   };
   const handleLightMode = () => {
-    navigate("/light");
+    navigate("/page2");
   };
-
   return (
     <nav className={styles.navbar}>
       <div className={styles.flexContainer}>
         <div className={styles.circle}></div>
         <a className={styles.techportfolio} href="/">
-          Tech Portfolio
+          Design Portfolio
         </a>
       </div>
 
@@ -76,17 +70,17 @@ export const Navbar = () => {
           </a>
         </div>
       </div>
-      <Link to={"/light_mode"}>
+      <Link to={"/page2"}>
         <div className={styles.light} onClick={handleLightMode}></div>
       </Link>
       <div className={styles.mode}></div>
-      <Link to={"/page2"}>
+      <Link to={"/light_mode"}>
         <div className={styles.goto} onClick={handleButtonClick}></div>
       </Link>
 
-      {/* <div className={styles.goto} onClick= {handleCircleClick}></div> */}
-      <p className={styles.modetext}>Tech Mode ON</p>
+      {/* <div className={styles.goto} onClick={handleCircleClick}></div> */}
+      <p className={styles.modetext}>Creative Mode ON</p>
     </nav>
   );
 };
-export default Navbar;
+export default Navbar_creative_light;
